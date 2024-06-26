@@ -1,3 +1,69 @@
+/*
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
 
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+*/
+/*
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+*/
+.background-primary {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-block: 279px;
+  border-radius: 20px;
+}
+
+.card-image {
+  max-width: 370px;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+}
+
+.card-block {
+  max-width: 370px;
+}
+
+.container-1 {
+  max-width: 1440px;
+  margin: auto;
+  border: solid 1px red;
+}
+
+.container-2 {
+  max-width: 740px;
+  margin: auto;
+  border: solid 1px red;
+}
+
+.text-size-1 {
+  font-size: 14px;
+}
+
+.font-primary {
+  font-family: Montserrat;
+}
+
+.heading {
+  font-family: Fraunces;
+  padding: 48px;
+  font-size: 40px;
+}
 
 /*# sourceMappingURL=styles.css.map */
