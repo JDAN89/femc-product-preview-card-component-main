@@ -8,9 +8,10 @@
 
 .card-image {
 
-    max-width: 370px;
+    display: flex;
     border-radius: 20px 0 0 20px;
     overflow: hidden;
+    flex: 0 1 370px;
 }
 
 
@@ -20,5 +21,38 @@
 
 
 .card-block {
-    max-width: 370px;
+
+    flex: 1;
+    padding: 35px;
+}
+
+.price-1 {
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: black;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 16px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+
 }
